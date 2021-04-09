@@ -19,3 +19,17 @@ body {
   display: flex;
   flex-direction: row-reverse;
 }
+.amcharts-amexport-item.amcharts-amexport-item-level-0.amcharts-amexport-item-blank {
+  margin: 0px 30px 0px 30px;
+  padding: 20px;
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  background: #46457de3;
+  color: white;
+  transition: all 100ms ease-out;
+  outline: none;
+  cursor: pointer;
+}

@@ -2,6 +2,59 @@ $bg-color: #0a2923c9;
 $font-color: white;
 $card-color: rgba(255, 255, 255, 0.1);
 
+// .aboutUsContainer {
+//   width: 100%;
+//   height: 100vh;
+//   background: $bg-color;
+//   color: $font-color;
+//   font-family: "Montserrat", sans-serif;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+
+//   h1 {
+//     font-size: 64px;
+//     border-bottom: 1px solid white;
+//     margin: 0 0 5rem 0;
+//   }
+
+//   .personCards {
+//     display: flex;
+//     flex-direction: row;
+
+//     .Card {
+//       background: $card-color;
+//       padding: 1rem;
+//       margin: 0 1rem 0 1rem;
+//       backdrop-filter: blur(40px);
+//       border-radius: 0px 100px 0px 50px;
+
+//       .upperContainer {
+//         display: flex;
+//         flex-direction: row;
+//         border-bottom: 1px solid white;
+//         padding-bottom: 0.5rem;
+
+//         .text-container {
+//           display: flex;
+//           flex-direction: column;
+
+//           span {
+//             margin: 10px 0 0 10px;
+//           }
+//         }
+
+//         img {
+//           border-radius: 50%;
+//           border: 1px solid white;
+//           width: 8vh;
+//         }
+//       }
+
+//       .info-text {
+//         padding: 10px 5px 5px 5px;
+//       }
 .aboutUsContainer {
   width: 100%;
   height: 100vh;
@@ -14,9 +67,8 @@ $card-color: rgba(255, 255, 255, 0.1);
   align-items: center;
 
   h1 {
-    font-size: 64px;
+    font-size: 54px;
     border-bottom: 1px solid white;
-    margin: 0 0 5rem 0;
   }
 
   .personCards {
@@ -25,7 +77,7 @@ $card-color: rgba(255, 255, 255, 0.1);
 
     .Card {
       background: $card-color;
-      padding: 1rem;
+      padding: 2rem;
       margin: 0 1rem 0 1rem;
       backdrop-filter: blur(40px);
       border-radius: 0px 100px 0px 50px;
@@ -48,7 +100,7 @@ $card-color: rgba(255, 255, 255, 0.1);
         img {
           border-radius: 50%;
           border: 1px solid white;
-          width: 8vh;
+          width: 16vh;
         }
       }
 
